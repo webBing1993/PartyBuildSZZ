@@ -5,6 +5,12 @@
 <link rel="stylesheet" href="/home/css/redcollection/filmdetail.css">
 <link rel="stylesheet" href="/static/sweetalert/sweetalert1.css">
 <script src="/static/sweetalert/sweetalert1.min.js"></script>
+<style>
+	.video {
+		text-align: center;
+		width: 100%;
+	}
+</style>
 {/block}
 
 {block name="body"}
@@ -14,7 +20,9 @@
 		<span>{$film.create_time|time_format='Y-m-d'}</span>
 	</div>
 	<div class="content">
-		<iframe height=250 width=510 src='{$film.net_path}' frameborder=0 allowfullscreen></iframe>
+		<div class="video">
+			<iframe height=250 width=510 src='{$film.net_path}' frameborder=0 allowfullscreen></iframe>
+		</div>
 		{$film.content}
 		<div class="note">
 			<span class="read">{$film.views}</span>
