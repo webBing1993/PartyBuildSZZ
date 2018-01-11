@@ -261,7 +261,24 @@ $(function(){
 			}
 		})
 	}
-
+	$(function(){
+		pushHistory();
+		window.addEventListener("popstate", function(e) {
+			$("iframe").remove();
+			setTimeout(function () {
+				window.history.go(-1);
+			},100);
+		}, false);
+		function pushHistory() {
+			var sta = {
+				title: "title"
+			};
+			if( window.history.state === null )
+			{
+				window.history.pushState( sta, "title" );
+			}
+		}
+	});
 
 </script>
 {/block}

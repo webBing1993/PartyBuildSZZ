@@ -47,37 +47,37 @@
 @-webkit-keyframes typing {
   0% {
     background-color: rgba(0, 0, 0, 0.8);
-    box-shadow: 12px 0 0 0 rgba(0, 0, 0, 0.2), 24px 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 3.2vw 0 0 0 rgba(0, 0, 0, 0.2), 24px 0 0 0 rgba(0, 0, 0, 0.2);
   }
   25% {
     background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 12px 0 0 0 rgba(0, 0, 0, 0.8), 24px 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 3.2vw 0 0 0 rgba(0, 0, 0, 0.8), 24px 0 0 0 rgba(0, 0, 0, 0.2);
   }
   75% {
     background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 12px 0 0 0 rgba(0, 0, 0, 0.2), 24px 0 0 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 3.2vw 0 0 0 rgba(0, 0, 0, 0.2), 24px 0 0 0 rgba(0, 0, 0, 0.8);
   }
 }
 @keyframes typing {
   0% {
     background-color: rgba(0, 0, 0, 0.8);
-    box-shadow: 12px 0 0 0 rgba(0, 0, 0, 0.2), 24px 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 3.2vw 0 0 0 rgba(0, 0, 0, 0.2), 24px 0 0 0 rgba(0, 0, 0, 0.2);
   }
   25% {
     background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 12px 0 0 0 rgba(0, 0, 0, 0.8), 24px 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 3.2vw 0 0 0 rgba(0, 0, 0, 0.8), 24px 0 0 0 rgba(0, 0, 0, 0.2);
   }
   75% {
     background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 12px 0 0 0 rgba(0, 0, 0, 0.2), 24px 0 0 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 3.2vw 0 0 0 rgba(0, 0, 0, 0.2), 24px 0 0 0 rgba(0, 0, 0, 0.8);
   }
 }
 /*视频*/
 .film {
   width: 100%;
-  padding-left: 13px;
-  padding-right: 13px;
-  padding-top: 13px;
+  padding-left: 3.2vw;
+  padding-right: 3.2vw;
+  padding-top: 3.2vw;
 }
 .film .title {
   color: #333333;
@@ -94,10 +94,10 @@
 .film .note {
   color: #666666;
   font-size: 1.2rem;
-  line-height: 30px;
+  line-height: 8vw;
 }
 .film .note span {
-  margin-right: 10px;
+  margin-right: 2.7vw;
 }
 .film .note span:last-child{
   margin-right: 0;
@@ -113,77 +113,77 @@
 .film .content img {
   display: block;
   max-width: 100%!important;
-  margin-bottom: 13px;
+  margin-bottom: 3.2vw;
 }
 .film .content .video {
-  position: relative;
+  /*position: relative;*/
   width: 100%;
-  height: 200px;
-  margin-bottom: 10px;
+  height: 50vw;
+  margin-bottom: 2.7vw;
   background: rgba(208, 208, 208, 0.5);
 }
 .film .content .video video {
   width: 100%;
-  height: 200px;
+  height: 50vw;
 }
 .film .content .video .play {
   position: absolute;
   top: calc(50% - 25px);
   left: calc(50% - 25px);
-  width: 50px;
-  height: 50px;
+  width: 13.4vw;
+  height: 13.4vw;
   opacity: 0.5;
   display: none;
 }
 .film .content .video iframe {
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 .film .content .note {
   color: #666666;
-  font-size: 14px;
+  font-size: 1.4rem;
   float: right;
 }
 .film .content .note span {
-  height: 40px;
+  height: 10.8vw;
   display: inline-block;
-  line-height: 40px;
+  line-height: 10.8vw;
 }
 .film .content .note .read {
-  background: url('/home/images/news/scan_.png') 0 12px no-repeat;
+  background: url('/home/images/news/scan_.png') 0 3.2vw no-repeat;
   background-size: 15px 15px;
   padding-left: 18px;
 }
 .film .content .note .good {
-  background: url('/home/images/news/good.png') 0 12px no-repeat;
+  background: url('/home/images/news/good.png') 0 3.2vw no-repeat;
 }
 .film .content .note .good_ {
   animation: shake 300ms ease;
   -webkit-animation: shake 300ms ease;
-  background: url('/home/images/news/good_.png') 0 12px no-repeat;
+  background: url('/home/images/news/good_.png') 0 3.2vw no-repeat;
 }
 .film .content .note .isgood {
-  background-size: 15px 15px;
-  padding-left: 18px;
+  background-size: 4vw 4vw;
+  padding-left: 4.8vw;
 }
 /*评论*/
 .comment {
-  padding-bottom: 50px;
+  padding-bottom: 13.4vw;
 }
 .comment .sum {
-  height: 30px;
-  padding-left: 10px;
+  height: 8vw;
+  padding-left: 2.7vw;
   background: #fcfcfc;
   border-top: 1px solid #f1f1f1;
   border-bottom: 1px solid #f1f1f1;
   font-size: 1.2rem;
-  line-height: 30px;
+  line-height: 8vw;
 }
 .comment .lists .list {
   width: 100%;
-  padding-left: 13px;
-  padding-right: 13px;
-  min-height: 100px;
+  padding-left: 3.2vw;
+  padding-right: 3.2vw;
+  min-height: 26.7vw;
   border-bottom: 1px solid #f1f1f1;
 }
 .comment .lists .list .fl img {
@@ -212,7 +212,7 @@
 }
 .comment .lists .list .mid .time {
   font-size: 1.2rem;
-  line-height: 20px;
+  line-height: 5.4vw;
   color: #999;
 }
 .comment .lists .list .fr {
@@ -228,13 +228,13 @@
   background: url('/home/images/news/good_.png') 0 2px no-repeat;
 }
 .comment .lists .list .isgood {
-  background-size: 15px 15px;
-  padding-left: 18px;
+  background-size: 4vw 4vw;
+  padding-left: 4.8vw;
 }
 .comment .tip {
-  height: 40px;
+  height: 10.8vw;
   text-align: center;
-  line-height: 40px;
+  line-height: 10.8vw;
   color: #c1c1c1;
 }
 /*底部*/
@@ -242,34 +242,34 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 45px;
+  height: 12vw;
   border-top: 1px solid #dadada;
   padding:0 3vw;
   background: #ffffff;
   font-family: "Microsoft YaHei", sans-serif;
 }
 .bottom .star {
-  background: url('/home/images/detail/star-border.png') 20px 12px no-repeat;
+  background: url('/home/images/detail/star-border.png') 5.4vw 3.2vw no-repeat;
 }
 .bottom .star_ {
   animation: shake 300ms ease;
   -webkit-animation: shake 300ms ease;
-  background: url('/home/images/detail/star-yellow.png') 20px 12px no-repeat;
+  background: url('/home/images/detail/star-yellow.png') 5.4vw 3.2vw no-repeat;
 }
 .bottom .collect {
-  width: 60px;
+  width: 16vw;
   height: 100%;
   font-size: 1.2rem;
   text-align: center;
-  background-size: 20px 20px;
-  padding-top: 24px;
+  background-size: 5.4vw 5.4vw;
+  padding-top: 6.4vw;
 }
 .bottom .myword input {
   vertical-align: middle;
-  height: 30px;
+  height: 8vw;
   width: 94vw;
   margin: 7px 0;
-  padding-left: 10px;
+  padding-left: 2.7vw;
   background: #fafafa;
   border: 1px solid #d8d8d8;
   -webkit-border-radius: 6px;
@@ -280,9 +280,9 @@ input::-webkit-input-placeholder{
 }
 .bottom .send {
   width: 19vw;
-  padding-left: 15px;
-  padding-right: 15px;
-  line-height: 45px;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  line-height: 12vw;
   text-align: center;
 }
 .bottom .send:active {
@@ -291,16 +291,16 @@ input::-webkit-input-placeholder{
 /*加载动画*/
 .loading {
   width: 100%;
-  height: 40px;
+  height: 10.8vw;
 }
 .typing_loader {
-  width: 6px;
-  height: 6px;
+  width: 1.6vw;
+  height: 1.6vw;
   border-radius: 50%;
   -webkit-animation: typing 1s linear infinite alternate;
   -moz-animation: Typing 1s linear infinite alternate;
   animation: typing 1s linear infinite alternate;
   position: relative;
-  top: 17px;
-  left: calc( 50vw - 15px );
+  top: 4.67vw;
+  left: calc( 50vw - 4vw);
 }
